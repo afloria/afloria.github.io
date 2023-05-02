@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<style>
+		body {
+			background-color: #bdc4cb;
+			color: #7c6b65;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #f2800a;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 3em;
+		}
+		nav {
+			background-color: #efa94d;
+			display: flex;
+			justify-content: center;
+			padding: 10px;
+		}
+		nav a {
+			color: white;
+			margin: 0 10px;
+			text-decoration: none;
+		}
+		nav a:hover {
+			text-decoration: underline;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 50px;
+		}
+		.item {
+			background-color: white;
+			border: 1px solid #7c6b65;
+			margin: 20px;
+			padding: 20px;
+			width: 300px;
+		}
+		.item h2 {
+			font-size: 2em;
+			margin-top: 0;
+		}
+		.item p {
+			margin-top: 0;
+			font-size: 1.2em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+	</header>
+	<nav>
+		<a href="#data-engineering">Data Engineering</a>
+		<a href="#software-engineering">Software Engineering</a>
+		<a href="#graphic-design">Graphic Design/Slides</a>
+	</nav>
+	<div class="container">
+		<div class="item">
+			<h2 id="data-engineering">Data Engineering</h2>
+			<p>Here's some information about my data engineering work.</p>
+		</div>
+		<div class="item">
+			<h2 id="software-engineering">Software Engineering</h2>
+			<p>Here's some information about my software engineering work.</p>
+		</div>
+		<div class="item">
+			<h2 id="graphic-design">Graphic Design/Slides</h2>
+			<p>Here's some information about my graphic design/slides work.</p>
+		</div>
+	</div>
+</body>
+</html>
